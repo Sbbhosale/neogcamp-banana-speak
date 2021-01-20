@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+:root{
+    --main-color : #03045e;
+    --primary-color :  #F2C94C;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family:'Kalam',cursive;
+}
+
+/* Header  */
+.navigation{
+    background-color:
+    var(--primary-color);
+    color :var(--main-color);
+    padding: 3rem;
+    border-bottom-left-radius: 1rem;
+    font-weight: bolder;
+
+}
+
+
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+#text-input
+{
+width: 60%;
+height: 25vh;
+padding: 1rem 1rem;
+margin: 70px 200px 50px;
+box-sizing: border-box;
+}
+
+
+
+#output-div
+{
+    border: 1px solid black;
+    width:60%;
+    height: 25vh;
+    padding: 2rem;
+    margin: 30px 200px 50px;
+}
+
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    border-radius: 1rem;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+
+
+
+.center-container{
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
+}
+
+
+.footer{
+    background-color:
+    var(--primary-color);
+    color :var(--main-color);
+    padding: 3rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
