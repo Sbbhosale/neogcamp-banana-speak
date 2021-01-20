@@ -1,12 +1,9 @@
-//alert : used for showing output
-alert("This site is working..")
+var btnTranslate = document.querySelector("#btn-translate");
+
+function addclickhandler()
+{
+    console.log("clicked")
+}
 
 
-//prompt : used for taking user input
-prompt("enter you name")
-//how can we use prompt
-
-
-
-var userName = prompt("enter you name");
-alert("This site is Loading " + userName);
+btnTranslate.addEventListener("click", addclickhandler);
